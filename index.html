@@ -1,0 +1,115 @@
+<!-- HTML structure updated to include case study PDF link -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen K - Portfolio</title>
+  <style>
+    /* existing styles remain unchanged */
+    /* ... */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Naveen K</h1>
+      <p class="contact">📍 Dharmapuri | 📧 <a href="mailto:navepalanisamy@gmail.com">navepalanisamy@gmail.com</a> | <a href="https://www.linkedin.com/in/naveenk-cyber" target="_blank">LinkedIn</a></p>
+    </header>
+
+    <div class="slideshow-container">
+      <img class="slides" src="https://via.placeholder.com/900x300?text=Cybersecurity" alt="Cybersecurity">
+      <img class="slides" src="https://via.placeholder.com/900x300?text=Tech+Support" alt="Tech Support">
+      <img class="slides" src="https://via.placeholder.com/900x300?text=Networking" alt="Networking">
+    </div>
+
+    <section>
+      <h2>About Me</h2>
+      <p>Cybersecurity and Computer Science graduate passionate about tech, troubleshooting, and digital security. Skilled in VAPT basics, desktop support, and problem-solving. Open to roles in IT support, tech operations, and cybersecurity.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Operating Systems: Windows, Kali Linux</li>
+        <li>Cybersecurity Tools: Nmap, Wireshark, Burp Suite, Splunk (basic)</li>
+        <li>Programming: Python, HTML, CSS (Basic)</li>
+        <li>Concepts: Vulnerability Assessment, SOC Monitoring, DDoS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Desktop Support Fundamentals - MindLuster</li>
+        <li>Foundations of Cybersecurity - Coursera</li>
+        <li>Cybersecurity Job Simulation - Forage</li>
+        <li>Ethical Hacker – Cisco Networking Academy</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        $1
+<li><em>Summary:</em> This case study explores how Distributed Denial of Service (DDoS) attacks are executed using botnets, the tools used by attackers, real-world incidents, and the mitigation techniques followed by enterprises and ISPs. It includes research-based analysis with diagrams and impact data.</li>
+      </ul>
+    </section>
+
+    <section class="project-gallery">
+      <h2>Project Showcase</h2>
+      <div class="project-item">
+        <img src="Naveenk_DDoS_CaseStudy" alt="DDoS Project">
+        <div class="project-caption">DDoS Analysis Report</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Workshops & Events</h2>
+      <ul>
+        <li>Cybersecurity Workshop with AI & ML – SRM Institute of Science & Technology (Feb 2024)</li>
+      </ul>
+    </section>
+
+   <section class="image-gallery">
+  <h2>Certificates</h2>
+  <img src="MindLuster_Certificate.pdf" alt="MindLuster Certificate">
+  <img src="Foundations of Cyber Security.pdf" alt="Coursera Certificate">
+  <img src="Ethicalhacker.pdf" alt="Coursera Certificate">
+  <a href="Forage.pdf" target="_blank">📄 View Forage Certificate</a>
+</section>
+
+
+    <section class="contact-form">
+      <h2>Contact Me</h2>
+      <form action="mailto:navepalanisamy@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Send Email</button>
+      </form>
+      <div class="contact-options">
+        <a href="mailto:navepalanisamy@gmail.com">📧 Email Me</a>
+        <a href="https://wa.me/919025493186" target="_blank">💬 WhatsApp Me</a>
+        <a href="NaveenK_TechResume.pdf" download>📄 Download Resume</a>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      const slides = document.getElementsByClassName("slides");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1;}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 3000);
+    }
+  </script>
+</body>
+</html>
